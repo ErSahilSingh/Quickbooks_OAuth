@@ -1,0 +1,21 @@
+{
+  "name": "quickbooks-mern-server",
+  "version": "1.0.0",
+  "description": "Express API for QuickBooks OAuth and sync",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "node-fetch": "^3.3.2"
+  }
+}
