@@ -16,7 +16,6 @@ MONGO_URI=your_mongodb_connection_string
 ```bash
 cd server
 npm install
-cp .env.example .env
 # edit .env
 npm run dev
 ```
